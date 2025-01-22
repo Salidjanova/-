@@ -1,0 +1,38 @@
+.div1 {
+    width: 350px;
+    height: 180px;
+    margin-left: 50px;
+    background: linear-gradient(to right ,rgba(0, 0, 0, 0.83), rgba(150, 0, 78, 0.498)), url(./img/8e893739b56490f071506c5da01691fb.jpg) no-repeat center center / cover;
+}
+.btn1 {
+    width: 350px;
+    height: 50px;
+    margin-left: 50px;
+    background-color: rgb(172, 99, 111);
+    outline: none;
+    border: 2px solid white;
+    color: white;
+    border-radius: 30px;
+    font-size: 20px;
+}
+a {
+    list-style: none;
+    text-decoration: none;
+    color: white;
+}
+.img1 {
+    width: 300px;
+    height: 300px;
+    margin-left: 50px;
+    border-radius: 50%;
+}
+.img2 {
+    width: 350px;
+    height: 180px;
+    margin-left: 100px;
+    margin-top: 70px;
+}
+.img2:hover {
+    transform: scale(1.5);
+    transition: all 1s
+}
