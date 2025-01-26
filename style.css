@@ -95,3 +95,19 @@ ul {
     border-radius: 20px;
     outline: none;
 }
+
+.fixed-box {
+    position: fixed;
+    top: 450px;
+    right: 500px;
+    width: 200px;
+    height: 170px;
+    background-color: rgb(60, 144, 253);
+    color: white;
+    text-align: center;
+    line-height: 50px;
+  }
+  .images {
+    width: 200px;
+    height: 200px;
+  }
