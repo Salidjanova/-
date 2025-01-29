@@ -74,3 +74,6 @@ let images = document.querySelector('.images')
 btn6.addEventListener('click', () => {
    images.style.borderRadius = '50%'
 })
+
+
+
