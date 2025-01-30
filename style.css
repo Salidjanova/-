@@ -110,4 +110,25 @@ ul {
   .images {
     width: 200px;
     height: 200px;
+    
+  }
+  .clas {
+    margin-left: 10px;
+  }
+
+  .h31 {
+    width: 300px;
+    height: 200px;
+  }
+
+  .h22 {
+    color: red;
+  }
+  .rasmOch {
+    width: 400px;
+    height: 300px;
+  }
+  .img {
+    width: 400px;
+    height: 300px;
   }

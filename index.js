@@ -52,7 +52,7 @@ btn2.addEventListener('click', () => {
 // 23-topshiriq
 let btn3 = document.querySelector('.btn3')
 btn3.addEventListener('click', () => {
-   salom.style.color = 'red'
+    salom.style.color = 'red'
 })
 
 // 24-topshiriq
@@ -72,8 +72,57 @@ btn5.addEventListener('click', () => {
 let btn6 = document.querySelector('.btn6')
 let images = document.querySelector('.images')
 btn6.addEventListener('click', () => {
-   images.style.borderRadius = '50%'
+    images.style.borderRadius = '50%'
 })
 
+//26-topshiriq
+let btn7 = document.querySelector('.btn7')
+btn7.addEventListener('click', () => {
+    images.style.display = 'none'
+})
 
+// 27-topshiriq
+let btn8 = document.querySelector('.btn8')
+let h31 = document.querySelector('.h31')
+btn8.addEventListener('click', () => {
+    h31.style.display = 'none'
+})
 
+// 28-topshiriq
+let btn9 = document.querySelector('.btn8')
+btn9.addEventListener('click', () => {
+    body.style.display = 'none'
+})
+
+// 31-topshiriq
+let btn10 = document.querySelector('.btn10')
+let h21 = document.querySelectorAll('.h21')
+btn10.addEventListener('click', () => {
+    for (value of h21) {
+        value.classList.add('h22')
+    }
+})
+
+//32-topshiriq
+$(".jq1").click(function (e) { 
+    e.preventDefault();
+    $("body").css("background-color", "red")
+});
+
+// 33-topshiriq
+$('.button').click(function (e) { 
+    e.preventDefault();
+    $('.rasmOch').css("display", "none")
+});
+
+// 34-topshiriq
+$('.button2').click(function (e) { 
+    e.preventDefault();
+    $('.img').css("border-radius", "50%")
+});
+
+// 35-topshiriq
+$('.button3').click(function (e) { 
+    e.preventDefault();
+    $('.button3').css("display", "none")
+});
